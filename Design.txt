@@ -1,0 +1,47 @@
+
+
+
+class Pokemon
+  - (name)
+  - lifePoints
+  - level
+  - powerPoints
+
+fucn:
+  -atk() 
+ 
+
+class Trainer
+att:
+  - name
+  - std::array<Pokemon, 6>
+func:
+  - fight()
+  - run()
+  
+
+battle --> pokemon or Trainer
+
+Trainer decides: 
+1) Go in the wild
+  - Fight
+  - Catch
+2) Go to an opponent
+  - Fight
+3) Walk around
+  - Nothing happens
+
+user selects 1. 
+selects fight
+1-select current pkmn to fight with
+2-select attack
+3-be attacked
+- determine winner
+
+selects catch
+needs pokeballs
+probability that he'll catch. 
+
+user selects 2. 
+
+hp vs atk power 
